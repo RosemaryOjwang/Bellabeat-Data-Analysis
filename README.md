@@ -1,5 +1,6 @@
 # Bellabeat-Data-Analysis
-This case study explores how Bellabeat, a wellness technology company, can leverage smart device usage trends to refine its marketing strategy and drive business growth.
+## Project Overview
+This case study explores how Bellabeat, a high-tech manufacturer of health-focused products for women, can utilize fitness data from non-Bellabeat smart devices to identify new business opportunities.
 
 
 
