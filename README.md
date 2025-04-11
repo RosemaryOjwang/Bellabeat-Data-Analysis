@@ -42,6 +42,12 @@ Even though you don’t have demographic or feature-specific data for non-Bellab
 - Integration with Fitness Apps: If users of non-Bellabeat devices use fitness apps to sync their data, Bellabeat could explore integration with third-party fitness apps or create its own ecosystem to increase device utility.
 
 
+![image](https://github.com/user-attachments/assets/5fd5d32a-bd74-45b4-9d43-4a942eee79f4)
+
+
+  
+
+
 
 
 
