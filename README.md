@@ -43,6 +43,12 @@ The goal is to identify patterns in **hydration-related behavior** using weight 
    - **Weight vs. BMI Comparison**
    - **Steps vs. Calories**
    - **Activity Type Percentages**
+     
+   NB: To prepare the data for visualization and analysis, I also created the following helper pivot tables:
+- **helperWeight Pivot**
+- **helperMinuteSleep Pivot**
+All pivot tables are connected to a universal slicer for user-level filtering and interactivity across the dashboard.
+
 
 6. **Designed an Interactive Dashboard**  
    - Slicer-enabled, user-specific dashboard.
