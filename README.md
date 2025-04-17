@@ -1,3 +1,106 @@
+# Bellabeat Spring: Smart Water Bottle Analysis & Dashboard
+![DashboardScreenShot](https://github.com/user-attachments/assets/2e95aea3-a4c6-4bfa-bd50-f388ddb7c276)
+
+
+This project explores user data from Bellabeat smart devices to provide **data-driven insights** and **marketing recommendations** for the Bellabeat product called **Spring** — a smart water bottle that tracks daily hydration using smart technology and syncs with the Bellabeat app.
+
+The goal is to identify patterns in **hydration-related behavior** using weight and BMI data, among other wellness metrics, and present actionable insights in an interactive Excel dashboard.
+
+---
+
+## Tools Used
+
+- **Microsoft Excel** (Power Pivot, Slicers, Pivot Tables, Charts, Dashboard Design)
+- **GitHub** (for project documentation and sharing)
+- **Data Modeling** in Excel using a User Lookup Table
+
+---
+
+## 🧹 Data Processing Workflow
+
+1. **Combined Data from Different Time Periods**  
+   - Merged multiple Excel/CSV files to create one master workbook.  
+   - Cleaned columns, fixed formatting, and standardized date fields.
+
+2. **Loaded Datasets into the Excel Data Model**  
+   - Added individual datasets: `Activity`, `Weight`, `Sleep`, etc.  
+   - Ensured consistent formatting (e.g., ID, Date fields).
+
+3. **Created a User Lookup Table**  
+   - Generated a `UserLookup` table with unique `Id`s.  
+   - Used as the central key for building relationships across all datasets.
+
+4. **Linked All Tables in the Data Model**  
+   - Connected each dataset to the `UserLookup` using the `Id` field.  
+   - Built one-to-many relationships to enable unified slicer filtering.
+
+5. **Built Pivot Tables**  
+   Created custom pivot tables for key wellness metrics:
+   - **Calories Burnt by Weekday per User**
+   - **Average Steps by Weekday per User**
+   - **Sleep Duration per Day**
+   - **Weight vs. BMI Comparison**
+   - **Steps vs. Calories**
+   - **Activity Type Percentages**
+
+6. **Designed an Interactive Dashboard**  
+   - Slicer-enabled, user-specific dashboard.  
+   - Side-by-side line charts for Weight and BMI.  
+   - Custom colors:
+     - Weight: RGB(242, 126, 110)
+     - BMI: RGB(58, 58, 58)  
+   - Key metrics section to summarize user health behavior.
+
+---
+
+## 📊 Key Insights (Spring Product)
+
+- Users with consistent weight and BMI data tend to show **stable hydration habits**.  
+- **Low sleep duration** may correlate with higher BMI for some users — a potential sign of poor hydration or recovery.  
+- **Activity levels drop on weekends**, suggesting a need for hydration reminders on those days.  
+- **Hydration tracking could benefit from real-time alerts** during low-activity periods.
+- Users with high step counts do not necessarily have higher water intake, showing a disconnect that **Spring can fill** via smart tracking and app nudges.
+
+---
+
+## 📢 Recommendations for Bellabeat (Spring)
+
+1. **Promote Personalized Hydration Goals**  
+   - Use weight/BMI trends to suggest daily water intake targets.
+
+2. **App Notifications Based on Inactivity**  
+   - Remind users to hydrate during long sedentary periods.
+
+3. **Weekend Wellness Campaigns**  
+   - Encourage consistent Spring usage during low-activity days.
+
+4. **Gamify Hydration**  
+   - Offer badges or streaks for meeting daily hydration targets synced with the Spring bottle.
+
+5. **Use Sleep Patterns to Drive Messaging**  
+   - Target users who sleep less with wellness reminders about the link between hydration and rest.
+
+---
+
+## 📁 Files in This Repository
+
+| File | Description |
+|------|-------------|
+| `Bellabeat_Spring_Analysis.xlsx` | Main Excel file with all datasets, model relationships, pivot tables, and dashboard |
+| `Dashboard_Screenshot.png` | Static preview image of the final dashboard |
+| `README.md` | Documentation of the project |
+
+---
+
+## 📌 Next Steps
+
+- Expand analysis by comparing seasonal trends in hydration and activity.  
+- Collect feedback on dashboard usability and insights clarity.  
+- Explore building the dashboard in **Power BI or Tableau** for web-based interactivity.
+
+---
+
+> Created by **Rose** as part of a case study inspired by the Google Data Analytics Capstone project.
 # Bellabeat-Data-Analysis
 ## Project Overview
 This case study explores how Bellabeat, a high-tech manufacturer of health-focused products for women, can utilize fitness data from non-Bellabeat smart devices to identify new business opportunities.
