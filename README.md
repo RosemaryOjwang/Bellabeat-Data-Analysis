@@ -1,5 +1,5 @@
 # Bellabeat Spring: Smart Water Bottle Analysis & Dashboard
-![DashboardScreenshot](https://github.com/user-attachments/assets/2e95aea3-a4c6-4bfa-bd50-f388ddb7c276)
+![images/DashboardScreenshot](https://github.com/user-attachments/assets/2e95aea3-a4c6-4bfa-bd50-f388ddb7c276)
 
 
 This project explores user data from non-Bellabeat smart devices to provide **data-driven insights** and **marketing recommendations** for the Bellabeat product called **Spring** — a smart water bottle that tracks daily hydration using smart technology and syncs with the Bellabeat app.
