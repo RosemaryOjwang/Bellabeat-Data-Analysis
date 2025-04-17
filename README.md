@@ -45,8 +45,9 @@ The goal is to identify patterns in **hydration-related behavior** using weight 
    - **Activity Type Percentages**
      
    NB: To prepare the data for visualization and analysis, I also created the following helper pivot tables:
-- **helperWeight Pivot**
+- **helperWeightLog Pivot**
 - **helperMinuteSleep Pivot**
+- **helperDailyActivity pivot**
   
 All pivot tables are connected to a universal slicer for user-level filtering and interactivity across the dashboard.
 
