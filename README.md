@@ -97,8 +97,6 @@ All pivot tables are connected to a universal slicer for user-level filtering an
 | File | Description |
 |------|-------------|
 | `Bellabeat_Spring_Analysis.xlsx` | Main Excel file with all datasets, model relationships, pivot tables, and dashboard |
-| `DashboardScreenshot.png` | Static preview image of the final dashboard |
-| `TablesRelationship.png` | Preview image of the tables relationship |
 | `README.md` | Documentation of the project |
 
 ---
